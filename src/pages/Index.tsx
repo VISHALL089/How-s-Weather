@@ -21,10 +21,10 @@ const Index = () => {
         <div className="max-w-2xl mx-auto space-y-12">
           {/* Header */}
           <div className="text-center text-white">
-            <h1 className="text-5xl font-light mb-4 drop-shadow-lg">
-              Weather App
+            <h1 className="text-6xl font-semibold mb-4 drop-shadow-lg animate-fade-in-up">
+              How's Weather
             </h1>
-            <p className="text-xl text-white/80 drop-shadow">
+            <p className="text-xl text-white/90 drop-shadow font-light">
               Get instant weather updates for any city
             </p>
           </div>
@@ -42,7 +42,7 @@ const Index = () => {
             )}
             
             {weather && !isLoading && (
-              <div className="w-full max-w-md">
+              <div className="w-full max-w-md animate-fade-in-up">
                 <WeatherCard weather={weather} />
               </div>
             )}

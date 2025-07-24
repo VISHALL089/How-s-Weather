@@ -52,6 +52,16 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				weather: {
+					'sky-from': 'hsl(var(--sky-from))',
+					'sky-to': 'hsl(var(--sky-to))',
+					'sunny-from': 'hsl(var(--sunny-from))',
+					'sunny-to': 'hsl(var(--sunny-to))',
+					'cloudy-from': 'hsl(var(--cloudy-from))',
+					'cloudy-to': 'hsl(var(--cloudy-to))',
+					'rainy-from': 'hsl(var(--rainy-from))',
+					'rainy-to': 'hsl(var(--rainy-to))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

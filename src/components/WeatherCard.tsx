@@ -66,9 +66,11 @@ export function WeatherCard({ weather }: WeatherCardProps) {
             <h2 className="text-2xl font-bold">
               {weather.city}
             </h2>
-            <p className="text-white/80 text-sm">
-              {weather.country}
-            </p>
+            {weather.country !== 'Demo' && (
+              <p className="text-white/80 text-sm">
+                {weather.country}
+              </p>
+            )}
           </div>
 
           {/* Weather Icon */}
